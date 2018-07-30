@@ -41,6 +41,7 @@ spec:
           initialDelaySeconds: 15
           timeoutSeconds: 1
           periodSeconds: 10
+  #neobhodim benchmark da moje autoscelinga da znae kvo da vijda
         resources:
           requests:
             cpu: 200m
@@ -63,4 +64,5 @@ spec:
   - type: Resource
     resource:
       name: cpu
-      targetAverageUtilization: 50
+      targetAverageUtilization: 50 nad nego uvelichavame broiq podove
+      #sledime za 50%  ot 200m CPU
